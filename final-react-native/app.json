@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Camo-캠핑의모든것",
+    "slug": "final-react-native",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logoFinalGreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2d6247"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.kh.react_native_test",
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1bacc121-40ee-47ee-ba1e-ed125f86717b"
+      }
+    },
+    "owner": "ansrlgur12"
+  }
+}
